@@ -52,7 +52,16 @@ a{
         overflow: hidden;
 }
 /* =======================Header===================== */
-.header{
+.fixed-header {
+    background: #E6F0FF;
+    padding-top: 26px;
+    position: sticky;
+    top: -26px;
+    z-index: 1;
+}
+.hero-wrap{
+    display: flex;
+    flex-direction: column;
     background: #E6F0FF;
     height: 100vh;
     position: relative;
@@ -62,8 +71,8 @@ a{
     /* Chuyen len hang ngang */
     display: flex;
     align-items: center;
-    padding-top: 38px;
-
+    /* padding-top: 38px; */
+    padding: 12px 0;
 }
 .navbar ul{
     display: flex;
