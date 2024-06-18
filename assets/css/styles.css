@@ -657,15 +657,16 @@ a{
     width: 28px;
     height: 28px;
     border-radius: 3px;
-    margin: 10px;
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     -ms-border-radius: 3px;
     -o-border-radius: 3px;
 }
-
+.footer .social-link + .social-link {
+    margin-left: 16px;
+}
 .footer .social-link:hover {
-    border: 1px solid #ccc;
+    background: #d1c8c8;
 }
 
 .footer .row-bottom {
